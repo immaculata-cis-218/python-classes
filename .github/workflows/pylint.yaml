@@ -22,4 +22,4 @@ jobs:
           pip install pylint==2.15.10
       - name: Analysing the code with pylint
         run: |
-          pylint main.py --fail-under 5
+          pylint main.py --fail-under 8
